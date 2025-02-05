@@ -1,0 +1,57 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* VARIABLES */
+:root {
+    --white-blue: #e2f0f7;
+}
+
+
+
+/* HEADER */
+
+
+
+/* NAVIGATION */
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+/* BODY */
+body {
+    background-color: var(--white-blue);
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+
+
+/* IMAGES */
+.right {
+    float: right;
+    clear: both;
+}
+
+.left {
+    float: left;
+    clear: both;
+}
+
+
+
+/* MEDIA QUERIES */
+@media screen and (min-width: 576px) {
+    
+}
+
+@media screen and (min-width: 956px) {
+    
+}
