@@ -5,7 +5,7 @@
 
 /* VARIABLES */
 :root {
-    --white-blue: #e2f0f7;
+    --white-blue: #eff6f9;
     --deep-blue: #0e466b;
     --navy-blue: #0c012d;
 }
@@ -19,16 +19,20 @@ header {
     padding: 2px;
 }
 
+header h1 {
+    font-family: "Cherry Bomb One", serif;
+}
+
 
 
 /* NAVIGATION */
 nav {
     background-color: var(--deep-blue);
-}
-
-nav a {
     display: flex;
     justify-content: space-around;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
 a { 
@@ -40,6 +44,7 @@ a {
 
 a:hover { 
     background-color: var(--white-blue);
+    color: var(--navy-blue)
 }
 
 
@@ -48,6 +53,7 @@ a:hover {
 body {
     background-color: var(--white-blue);
     color: var(--navy-blue);
+    font-family: ;
 }
 
 .container {
