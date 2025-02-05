@@ -1,0 +1,227 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* VARIABLES */
+:root {
+    --white-blue: #f5f4f9;
+    --light-orange: #f5c8b2;
+    --pinkrose-red: #6d082d;
+    --deep-red: #220109;
+}
+
+
+
+/* HEADER */
+header {
+    text-align: center;
+    margin: 2px;
+    padding: 2px;
+    font-size: 1.3rem;
+}
+
+header h1 {
+    font-family: "Cherry Bomb One", serif;
+}
+
+header h2 {
+    padding: 0px;
+}
+
+
+
+/* NAVIGATION */
+nav {
+    background-color: var(--pinkrose-red);
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+a { 
+    text-decoration: none;
+    color: var(--white-blue);
+    padding: 10px 2px;
+    margin-inline: 2px;
+}
+
+a:hover { 
+    background-color: var(--white-blue);
+    color: var(--dark-red)
+}
+
+
+
+/* BODY */
+body {
+    background-color: var(--light-orange);
+    color: var(--dark-red);
+    font-family: "Merriweather", serif;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    margin-top: 18px;
+    background-color: var(--white-blue);
+
+    /* Box Shadowing? */
+    box-shadow: 5px 8px rgba(0, 0, 0, .6);
+}
+
+p, h3 {
+    padding: 15px;
+    font-size: 1rem;
+}
+
+h2 {
+    padding: 15px;
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+    padding: 0px 15px;
+}
+
+
+/* IMAGES */
+.img-padding {
+    padding: 5px;
+}
+
+.square-shape {
+    width: 180px;
+    height: 180px;
+}
+
+.portrait-shape {
+    width: 180px;
+    height: 225px;
+}
+
+.landscape-shape {
+    width: 250px;
+    height: 150px;
+}
+
+.right {
+    float: right;
+    clear: both;
+}
+
+.left {
+    float: left;
+    clear: both;
+}
+
+#cool-dogs {
+    display: flex;
+    justify-content: space-around;
+}
+
+.doggy-recipes-image {
+    width: 100%;
+    height: auto;
+}
+
+#doggy-recipes, #menu-img {
+    width: 100%;
+    margin: auto;
+}
+
+
+
+/* FOOTER */
+footer {
+    background-color: var(--pinkrose-red);
+    color: var(--white-blue)
+}
+
+.footer-columns {
+    column-count: 2;
+    column-gap: 25px;
+}
+
+
+
+/* MEDIA QUERIES */
+@media screen and (min-width: 576px) {
+/* HEADER */
+header {
+    font-size: 1.6rem;
+}
+
+
+
+/* BODY */
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+p, h3 {
+    padding: 15px;
+    font-size: 1.2rem;
+}
+
+h2 {
+    padding: 15px;
+    font-size: 1.7rem;
+}
+
+h3 {
+    font-size: 1.4rem;
+    padding: 0px 15px;
+}
+
+
+/* IMAGES */
+.square-shape {
+    width: 280px;
+    height: 280px;
+}
+
+.portrait-shape {
+    width: 280px;
+    height: 325px;
+}
+
+.landscape-shape {
+    width: 350px;
+    height: 250px;
+}
+
+.doggy-recipes-image {
+    width: 33%;
+    height: auto;
+}
+
+#menu-img {
+    width: 100%;
+    margin: auto;
+}
+
+#doggy-recepies {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* FOOTER */
+/* footer {
+    background-color: var(--pinkrose-red);
+    color: var(--white-blue)
+}
+
+.footer-columns {
+    column-count: 2;
+    column-gap: 25px;
+} */
+}
+
+@media screen and (min-width: 956px) {
+    
+}
