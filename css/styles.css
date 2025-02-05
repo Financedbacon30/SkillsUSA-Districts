@@ -6,6 +6,7 @@
 /* VARIABLES */
 :root {
     --white-blue: #e2f0f7;
+    --deep-blue: #0e466b;
 }
 
 
@@ -16,8 +17,23 @@
 
 /* NAVIGATION */
 nav {
+    background-color: var(--deep-blue);
+}
+
+nav a {
     display: flex;
     justify-content: space-around;
+}
+
+a { 
+    text-decoration: none;
+    color: var(--white-blue);
+    padding: 1px;
+    margin-inline: 2px;
+}
+
+a:hover { 
+    background-color: var(--white-blue);
 }
 
 
